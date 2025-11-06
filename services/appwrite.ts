@@ -31,7 +31,10 @@ export const updateSearchCount = async (query: string, movie: Movie) => {
         movie_id: movie.id,
         title: movie.title,
         count: 1,
-        poster_url: `https://image.tmdb.org/t/p/w500${movie.poster_path}`,
+        poster_url: movie.poster_path
+  ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+  : "https://placehold.co/500x750/png"
+
       });
     }
   } catch (error) {
