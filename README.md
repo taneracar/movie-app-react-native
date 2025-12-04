@@ -1,50 +1,84 @@
-# Welcome to your Expo app 👋
+📋 İçindekiler
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🤖 Giriş
 
-## Get started
+⚙️ Teknoloji Stack
 
-1. Install dependencies
+🔋 Özellikler
 
-   ```bash
-   npm install
-   ```
+🤸 Hızlı Başlangıç
 
-2. Start the app
+🕸️ Kopyalanabilir Kodlar
 
-   ```bash
-   npx expo start
-   ```
+🔗 Assets
 
-In the output, you'll find options to open the app in a
+🚀 Daha Fazlası
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🤖 Giriş
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Bu proje, Expo ve TypeScript kullanarak popüler filmleri listeleyen, arama özelliğine sahip ve kullanıcı etkileşimine göre popülerlik algoritması oluşturan mobil bir film uygulamasıdır.
 
-## Get a fresh project
+Uygulama, TMDB Film API’sinden veri alır ve Appwrite ile kullanıcı davranışlarına göre popüler filmleri sıralamak için basit bir algoritma kullanır. Modern UI/UX prensipleri ile geliştirilmiş olup ölçeklendirilebilir yapıya sahiptir.
 
-When you're ready, run:
+⚙️ Teknoloji Stack
 
-```bash
-npm run reset-project
-```
+Expo: Android/iOS uygulama geliştirme platformu.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+React Native: Component tabanlı mobil UI framework’ü.
 
-## Learn more
+Appwrite: Kimlik doğrulama, database ve veri depolama için Backend servisleri.
 
-To learn more about developing your project with Expo, look at the following resources:
+TypeScript: Tip güvenliği sağlayarak hataları azaltan JavaScript üst kümesi.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+TailwindCSS + NativeWind: Utility-first mobile UI stil sistemi.
 
-## Join the community
+🔋 Özellikler
 
-Join our community of developers creating universal apps.
+🎬 Gerçek Zamanlı Veri
+TMDB API üzerinden anlık film verileri.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🏠 Anasayfa
+Öne çıkan filmler + keşfet alanı.
+
+🔍 Arama Sayfası
+Favori filmini bul, detaylarını gör.
+
+🔥 Popülerlik Algoritması
+Kullanıcı aramalarına göre filmleri sıralar.
+
+✨ Temiz Mimari & Yeniden Kullanılabilir Kodlar
+Component bazlı ölçeklenebilir yapı.
+
+🤸 Hızlı Başlangıç
+Gereksinimler
+
+Git
+
+Node.js
+
+npm
+
+Repository’yi Klonla
+git clone https://github.com/your-repo/rn-movie-app.git
+cd rn-movie-app
+
+Paketleri Kur
+npm install
+
+Ortam Değişkenlerini Ayarla
+
+Projenin kök dizinine .env dosyası ekle:
+
+EXPO_PUBLIC_MOVIE_API_KEY=
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=
+
+
+TMDB API Key ve Appwrite bilgilerini kendi hesabından al.
+
+Projeyi Çalıştır
+npx expo start
+
+
+Cihazında Expo Go ile QR kodunu okut ve projeyi aç.
