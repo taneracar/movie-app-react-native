@@ -60,7 +60,6 @@ npm
 
 Repository’yi Klonla
 git clone https://github.com/your-repo/rn-movie-app.git
-cd rn-movie-app
 
 Paketleri Kur
 npm install
